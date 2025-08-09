@@ -1,24 +1,15 @@
-# README
+# Gerenciador de Tarefas com Rails API e AngularJS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este projeto é o resultado prático dos meus estudos na linguagem Ruby e do meu primeiro contato com o framework Ruby on Rails. O objetivo foi construir uma aplicação web completa, combinando um backend robusto feito em Rails no modo API com um frontend dinâmico e interativo em AngularJS.
 
-Things you may want to cover:
+Toda a aplicação é orquestrada e containerizada usando Docker e Docker Compose, rodando sobre uma imagem baseada em Ubuntu. Isso garante um ambiente de desenvolvimento padronizado e isolado, utilizando PostgreSQL como banco de dados.
 
-* Ruby version
+* Arquitetura e Pontos de Aprendizado
 
-* System dependencies
+* Backend: API RESTful criada com Ruby on Rails.
 
-* Configuration
+* Frontend: Single Page Application (SPA) desenvolvida com AngularJS.
 
-* Database creation
+* Padrão de Dados: Utilização de DTOs (Data Transfer Objects) para garantir um contrato claro e seguro entre o backend e o frontend.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ambiente: Containerização completa com Docker, definindo serviços para o backend (Ubuntu + Rails) e o banco de dados (PostgreSQL).
